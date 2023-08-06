@@ -1,10 +1,11 @@
-/* Classe  : 
- * Objetivo:
+/* Classe  : Matrix
+ * Objetivo: Construir a matriz.
  * Autor   : github.com/unclWill
  * Data    : 05/08/2023
  */
 
 using System;
+using ContaParesNaDiagonalPrinc.Utils;
 
 namespace ContaParesNaDiagonalPrinc
 {
@@ -16,7 +17,8 @@ namespace ContaParesNaDiagonalPrinc
         /// <returns>Retorna um array de int</returns>
         private static int[,] SetMatrixDimensions()
         {
-            Console.WriteLine("Matrix-O-Matic\n");
+            //Console.WriteLine("Matrix-O-Matic\n");
+            DecorateText.DecoratedTitleText("Matrix-O-Matic", '*');
 
             Console.Write("\n[>] Digite o número de linhas que a matriz deve ter: ");
             int lines = Validations.InputValidation();
@@ -54,6 +56,8 @@ namespace ContaParesNaDiagonalPrinc
             }
 
             // Exibindo a matriz.
+            // Salta uma linha antes de exibir a matriz.
+            Console.WriteLine();
             for (int i = 0; i < matrix.GetLength(0); i++)
             {
                 for (int j = 0; j < matrix.GetLength(1); j++)
