@@ -1,0 +1,15 @@
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\#1133 - Fundamentos de Programação\_EXERCÍCIOS\Matrizes\ContaParesNaDiagonalPrinc\bin\Debug\net7.0\ContaParesNaDiagonalPrinc.exe
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\#1133 - Fundamentos de Programação\_EXERCÍCIOS\Matrizes\ContaParesNaDiagonalPrinc\bin\Debug\net7.0\ContaParesNaDiagonalPrinc.deps.json
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\#1133 - Fundamentos de Programação\_EXERCÍCIOS\Matrizes\ContaParesNaDiagonalPrinc\bin\Debug\net7.0\ContaParesNaDiagonalPrinc.runtimeconfig.json
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\#1133 - Fundamentos de Programação\_EXERCÍCIOS\Matrizes\ContaParesNaDiagonalPrinc\bin\Debug\net7.0\ContaParesNaDiagonalPrinc.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\#1133 - Fundamentos de Programação\_EXERCÍCIOS\Matrizes\ContaParesNaDiagonalPrinc\bin\Debug\net7.0\ContaParesNaDiagonalPrinc.pdb
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\#1133 - Fundamentos de Programação\_EXERCÍCIOS\Matrizes\ContaParesNaDiagonalPrinc\obj\Debug\net7.0\ContaParesNaDiagonalPrinc.csproj.AssemblyReference.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\#1133 - Fundamentos de Programação\_EXERCÍCIOS\Matrizes\ContaParesNaDiagonalPrinc\obj\Debug\net7.0\ContaParesNaDiagonalPrinc.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\#1133 - Fundamentos de Programação\_EXERCÍCIOS\Matrizes\ContaParesNaDiagonalPrinc\obj\Debug\net7.0\ContaParesNaDiagonalPrinc.AssemblyInfoInputs.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\#1133 - Fundamentos de Programação\_EXERCÍCIOS\Matrizes\ContaParesNaDiagonalPrinc\obj\Debug\net7.0\ContaParesNaDiagonalPrinc.AssemblyInfo.cs
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\#1133 - Fundamentos de Programação\_EXERCÍCIOS\Matrizes\ContaParesNaDiagonalPrinc\obj\Debug\net7.0\ContaParesNaDiagonalPrinc.csproj.CoreCompileInputs.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\#1133 - Fundamentos de Programação\_EXERCÍCIOS\Matrizes\ContaParesNaDiagonalPrinc\obj\Debug\net7.0\ContaParesNaDiagonalPrinc.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\#1133 - Fundamentos de Programação\_EXERCÍCIOS\Matrizes\ContaParesNaDiagonalPrinc\obj\Debug\net7.0\refint\ContaParesNaDiagonalPrinc.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\#1133 - Fundamentos de Programação\_EXERCÍCIOS\Matrizes\ContaParesNaDiagonalPrinc\obj\Debug\net7.0\ContaParesNaDiagonalPrinc.pdb
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\#1133 - Fundamentos de Programação\_EXERCÍCIOS\Matrizes\ContaParesNaDiagonalPrinc\obj\Debug\net7.0\ContaParesNaDiagonalPrinc.genruntimeconfig.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\#1133 - Fundamentos de Programação\_EXERCÍCIOS\Matrizes\ContaParesNaDiagonalPrinc\obj\Debug\net7.0\ref\ContaParesNaDiagonalPrinc.dll
