@@ -17,6 +17,7 @@ namespace ContaParesNaDiagonalPrinc
             while (!int.TryParse(Console.ReadLine(), out value))
             {
                 Console.WriteLine("Entrada inválida, tente novamente.\nDigite um número inteiro!");
+                Console.Write("|>| ");
             }
 
             return value;
