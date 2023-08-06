@@ -69,7 +69,7 @@ namespace ContaParesNaDiagonalPrinc
                 }
                 Console.WriteLine($"\nQuantidade de pares na diagonal principal: {pairCounter}\n", Console.ForegroundColor = ConsoleColor.Gray);
             }
-            //
+            // Exibe o Menu inicial após gerar a matriz.
             Menu.ShowMenu();
         }
     }
