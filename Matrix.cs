@@ -16,7 +16,7 @@ namespace ContaParesNaDiagonalPrinc
         /// <returns>Retorna um array de int</returns>
         private static int[,] SetMatrixDimensions()
         {
-            Console.WriteLine("MATRIX-O-MATIC\n");
+            Console.WriteLine("Matrix-O-Matic\n");
 
             Console.Write("\n[>] Digite o número de linhas que a matriz deve ter: ");
             int lines = Validations.InputValidation();
@@ -36,7 +36,7 @@ namespace ContaParesNaDiagonalPrinc
         public static void BuildMatrix()
         {
             Console.Clear();
-            // Populando a matriz
+            // Populando a matriz.
             int[,] matrix = SetMatrixDimensions();
             int pairCounter = 0;
 
@@ -45,6 +45,7 @@ namespace ContaParesNaDiagonalPrinc
                 for (int j = 0; j < matrix.GetLength(1); j++)
                 {
                     matrix[i, j] = i * matrix.GetLength(1) + j;
+                    // Contabilizando os pares na diagonal principal.
                     if ((i == j) & (matrix[i, j] % 2 == 0))
                     {
                         pairCounter++;
@@ -52,21 +53,25 @@ namespace ContaParesNaDiagonalPrinc
                 }
             }
 
-            // Exibindo a matriz
+            // Exibindo a matriz.
+            for (int i = 0; i < matrix.GetLength(0); i++)
+            {
+                for (int j = 0; j < matrix.GetLength(1); j++)
+                {
+                    Console.Write(matrix[i, j] + "\t", Console.ForegroundColor = ConsoleColor.Green);
+                }
+                Console.WriteLine();
+            }
+
+            // Verificando a possibilidade de traçar a diagonal principal.
             if (matrix.GetLength(0) != matrix.GetLength(1))
             {
-                Console.WriteLine("Não é possível percorrer a diagonal principal.");
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("\nNão é possível percorrer a diagonal principal.\n");
+                Console.ForegroundColor = ConsoleColor.Gray;
             }
             else
             {
-                for (int i = 0; i < matrix.GetLength(0); i++)
-                {
-                    for (int j = 0; j < matrix.GetLength(1); j++)
-                    {
-                        Console.Write(matrix[i, j] + "\t", Console.ForegroundColor = ConsoleColor.Green);
-                    }
-                    Console.WriteLine();
-                }
                 Console.WriteLine($"\nQuantidade de pares na diagonal principal: {pairCounter}\n", Console.ForegroundColor = ConsoleColor.Gray);
             }
             // Exibe o Menu inicial após gerar a matriz.
