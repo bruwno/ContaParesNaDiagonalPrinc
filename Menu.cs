@@ -12,7 +12,7 @@ namespace ContaParesNaDiagonalPrinc
     {
         public static void ShowMenu()
         {
-            Console.WriteLine("CONSTRUTOR DE MATRIZES v1.0\n\n");
+            Console.WriteLine("CONSTRUTOR DE MATRIZES v1.0\n");
 
             Console.WriteLine("[1] MONTAR UMA MATRIZ\n[2] FINALIZAR EXECUÇÃO");
             Console.Write("|>| ");

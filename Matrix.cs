@@ -67,12 +67,12 @@ namespace ContaParesNaDiagonalPrinc
             if (matrix.GetLength(0) != matrix.GetLength(1))
             {
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("\nNão é possível percorrer a diagonal principal.\n");
+                Console.WriteLine("\nNão é possível percorrer a diagonal principal.\n\n");
                 Console.ForegroundColor = ConsoleColor.Gray;
             }
             else
             {
-                Console.WriteLine($"\nQuantidade de pares na diagonal principal: {pairCounter}\n", Console.ForegroundColor = ConsoleColor.Gray);
+                Console.WriteLine($"\nQuantidade de pares na diagonal principal: {pairCounter}\n\n", Console.ForegroundColor = ConsoleColor.Gray);
             }
             // Exibe o Menu inicial após gerar a matriz.
             Menu.ShowMenu();
