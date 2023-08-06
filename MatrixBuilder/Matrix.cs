@@ -6,8 +6,9 @@
 
 using System;
 using ContaParesNaDiagonalPrinc.Utils;
+using ContaParesNaDiagonalPrinc.Menus;
 
-namespace ContaParesNaDiagonalPrinc
+namespace ContaParesNaDiagonalPrinc.MatrixBuilder
 {
     public class Matrix
     {

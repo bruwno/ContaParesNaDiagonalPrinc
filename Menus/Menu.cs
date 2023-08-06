@@ -5,8 +5,9 @@
  */
 
 using System;
+using ContaParesNaDiagonalPrinc.MatrixBuilder;
 
-namespace ContaParesNaDiagonalPrinc
+namespace ContaParesNaDiagonalPrinc.Menus
 {
     public class Menu
     {
