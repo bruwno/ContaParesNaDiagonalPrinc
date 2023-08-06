@@ -12,26 +12,6 @@ namespace ContaParesNaDiagonalPrinc
     public class Matrix
     {
         /// <summary>
-        /// Captura as dimensões da matriz a partir da entrada do teclado.
-        /// </summary>
-        /// <returns>Retorna um array de int</returns>
-        private static int[,] SetMatrixDimensions()
-        {
-            //Console.WriteLine("Matrix-O-Matic\n");
-            DecorateText.DecoratedTitleText("Matrix-O-Matic", '*');
-
-            Console.Write("\n[>] Digite o número de linhas que a matriz deve ter: ");
-            int lines = Validations.InputValidation();
-
-            Console.Write("\n[>] Digite o número de colunas que a matriz deve ter: ");
-            int columns = Validations.InputValidation();
-
-            int[,] matrixDimensions = new int[lines, columns];
-
-            return matrixDimensions;
-        }
-
-        /// <summary>
         /// Preenche a matriz com valores. O método GetLength() adquire o valor definido para cada item da matriz de acordo com o seu índice.
         /// Então, se eu quero o valor do primeiro item da matriz preciso definir o método como matriz.GetLength(0)
         /// </summary>
@@ -80,6 +60,26 @@ namespace ContaParesNaDiagonalPrinc
             }
             // Exibe o Menu inicial após gerar a matriz.
             Menu.ShowMenu();
+        }
+
+        /// <summary>
+        /// Captura as dimensões da matriz a partir da entrada do teclado.
+        /// </summary>
+        /// <returns>Retorna um array de int</returns>
+        private static int[,] SetMatrixDimensions()
+        {
+            //Console.WriteLine("Matrix-O-Matic\n");
+            DecorateText.DecoratedTitleText("Matrix-O-Matic", '*');
+
+            Console.Write("\n[>] Digite o número de linhas que a matriz deve ter: ");
+            int lines = Validations.InputValidation();
+
+            Console.Write("\n[>] Digite o número de colunas que a matriz deve ter: ");
+            int columns = Validations.InputValidation();
+
+            int[,] matrixDimensions = new int[lines, columns];
+
+            return matrixDimensions;
         }
     }
 }
